@@ -1,13 +1,15 @@
 // functions2.rs
 // Make me compile! Execute `rustlings hint functions2` for hints :)
 
-// I AM NOT DONE
+// I AM DONE
 
 fn main() {
     call_this(3);
 }
 
-fn call_this(num:) {
+fn call_this(num: u32) {
+
+    //specify what the variable num is
     for i in 0..num {
         println!("Loop! number {}", i + 1);
     }
